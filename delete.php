@@ -36,7 +36,7 @@ foreach ($sqls as $v){
    mysqli_query($con,$v);
 }
 
-echo 'All are Deleted....';
+echo 'All are Deleted....!!!!';
 
 /*for ($i=1; $i<=6; $i++){
    $myres =  "sql_delete_".$i;
