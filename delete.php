@@ -10,6 +10,8 @@ $row = mysqli_fetch_object($res);
 
 $dc_no = $row->dc_no;
 
+
+
 $sql_select_inv = "SELECT * FROM `invoice_detail` WHERE inv_no in('$inv_no')";
 
 $res_1 = mysqli_query($con,$sql_select_inv);
